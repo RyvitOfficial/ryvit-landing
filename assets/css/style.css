@@ -27,7 +27,7 @@ a {
   z-index: 9999;
 }
 
-.doc a {
+.doc > a {
   cursor: pointer;
   color: #7a7a7a;
 }
