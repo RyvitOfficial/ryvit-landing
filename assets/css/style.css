@@ -1,0 +1,91 @@
+@import url(../css/font.css);
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  width: 100%;
+  max-height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: relative;
+}
+
+.shape {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.shape img {
+  width: 75%;
+  float: right;
+}
+
+.lightblue {
+  position: fixed;
+  left: 10%;
+  top: 0;
+  z-index: -1;
+}
+
+.lightblue img {
+  width: 75%;
+}
+
+.logo {
+  text-align: left;
+}
+
+.logo img {
+  width: 80%;
+}
+
+.main {
+  width: 35%;
+  height: 100vh;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 10%;
+  /* padding-top: 5%; */
+}
+
+.main-text {
+  font-size: 50px;
+  text-align: left;
+  font-weight: medium;
+  padding: 0 20px 0 20px;
+  width: 100%;
+  color: #0f415e;
+}
+
+.main-button {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main-button button {
+  border: none;
+  background-color: #1b59f8;
+  color: #fff;
+  font-size: 18px;
+  height: 60px;
+  width: 408px;
+  border-radius: 17px;
+  box-shadow: 0px 0px 100px -46px #1b59f8;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.main-button button:hover {
+  background-color: #1b5af8e1;
+  box-shadow: 0px 0px 100px -40px #1b59f8;
+}
