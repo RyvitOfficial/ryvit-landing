@@ -15,6 +15,27 @@ body {
   position: relative;
 }
 
+a {
+  text-decoration: none;
+}
+
+.doc {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 40px;
+  z-index: 9999;
+}
+
+.doc a {
+  cursor: pointer;
+  color: #7a7a7a;
+}
+
+.doc a:hover {
+  color: #1b59f8;
+}
+
 .shape {
   position: fixed;
   right: 0;
